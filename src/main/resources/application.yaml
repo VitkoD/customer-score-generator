@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: kafka:9092
+      topic: customers
+
+server:
+  port: 8088
